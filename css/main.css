@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #4a4e4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#whole-square {
+  height: 200px;
+  max-width: 300px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+.tiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+button {
+  padding: 10px;
+  width: 100px;
+}
